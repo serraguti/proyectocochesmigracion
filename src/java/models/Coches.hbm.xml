@@ -3,7 +3,7 @@
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <!-- Generated 03-mar-2021 20:03:22 by Hibernate Tools 4.3.1 -->
 <hibernate-mapping>
-    <class name="models.Coches" table="COCHES" schema="SYSTEM" optimistic-lock="version">
+    <class name="models.Coches" table="COCHES" optimistic-lock="version">
         <id name="idcoche" type="big_decimal">
             <column name="IDCOCHE" precision="22" scale="0" />
             <generator class="assigned" />
